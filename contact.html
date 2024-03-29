@@ -7,43 +7,55 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
+    <div class="container">
     <nav>
         <ul>
             <li>
-                <a href="./index.html">Inicio</a>
-
+                <a href="./index.html">Quem sou eu</a>
             </li>
             <li>
-                <a href="./sobre.html" >Sobre mim</a>
-
+                <a href="./interesses.html" >Meus interesses</a>
             </li>
             <li>
                 <a href="./contact.html">Contato</a>
-
             </li>
-            <li>
-                <a href="./project.html">Projetos</a>
-
-            </li>
-            
-
         </ul>
-
     </nav>
     <header>
         <div class="center">
-        <h1 class="nome">Contato</h1>
-        <p class="name">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nemo ratione suscipit qui laboriosam ipsa iste autem magni, nesciunt cupiditate ab quis dolorum officiis, reiciendis maiores temporibus quo pariatur voluptates.</p>
-        <a href="https://github.com/igoorandrade" target="_blank" rel="noopener noreferrer">
-            <img src="./IMG/github.svg"></img>
-            <p>GitHub</p>
-        </a>
-        <a href="https://www.linkedin.com/in/igor-andrade-24415b2aa/" target="_blank" rel="noopener noreferrer">
-            <img src="./IMG/linkedin.svg"></img>
-            <p>Linkedin</p>
-        </a>
-        </div>
-        
+        <h1 class="nome">Formulário de contato</h1>
+        </div> 
     </header>
+    <div class="row">
+        <form class="card">
+            <label for="inputNome">Nome:</label>
+            <input type="text" id="inputNome">
+        
+            <label for="inputEmail">E-mail:</label>
+            <input type="email" id="inputEmail">
+
+            <label for="inputWeb">Website:</label>
+            <input type="text" id="inputWeb">
+        
+            <label for="textareaComentario">Comentario:</label>
+            <textarea name="textareaComentario" id="textareaComentario"></textarea>
+            <p>Observação: Seu comentario será publicado após passar pelo moderador.</p>
+        
+            <Button>Enviar Mensagem</Button>
+        </form>
+    </div>
+    <footer>
+        <footer>
+            <a href="https://github.com/igoorandrade" target="_blank" rel="noopener noreferrer">
+                <img src="./IMG/github.svg"></img>
+                <p>GitHub</p>
+            </a>
+            <a href="https://www.linkedin.com/in/igor-andrade-24415b2aa/" target="_blank" rel="noopener noreferrer">
+                <img src="./IMG/linkedin.svg"></img>
+                <p>Linkedin</p>
+            </a>
+        </footer>
+    </footer>
+    </div>
 </body>
 </html>
